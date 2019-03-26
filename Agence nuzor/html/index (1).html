@@ -1,0 +1,189 @@
+body,html{
+  margin: 0;
+  padding: 0;
+position: relative;
+}
+*{
+box-sizing: border-box;
+}
+/*ui*/
+header{
+  width: 100%;
+  height: 100vh;
+  min-height: 100%;
+  background-image: url("/images/fond1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+
+}
+#logo{
+  color: white;
+  font-size: 4em;
+  font-weight: 600;
+  transform: rotate(12deg);
+  margin-top: 1em;
+  margin-left: 2em;
+  text-shadow: 4px 4px 3px white;
+}
+
+
+#main-nav {
+  display: flex;
+  justify-content: flex-end;
+  line-height: 6em;
+margin-right: 6em;
+
+
+}
+#main-nav .menu{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 18px;
+  width: 50%;
+
+}
+#main-nav .menu li{
+  list-style-type: none;
+}
+#main-nav .menu li a{
+color: white;
+text-decoration: none;
+padding: 10px 15px;
+transition: 0.50s;
+    text-shadow: 2px 2px 3px white;
+
+}
+#main-nav .menu li a:hover{
+color: #5A3B07;
+background-color: white;
+text-decoration: none;
+padding: 10px 15px;
+margin: 0 10px 0 0;
+border-radius: 2px;
+}
+
+.section{
+  margin: 5em 0 0 0;
+}
+.section1 h1{
+
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  color: #5A3B07;
+}
+.new1{
+
+  font-size: 19px;
+  text-align: center;
+  width: 60%;
+  margin: 5em auto;
+  padding: 20px;
+  line-height: 40px;
+}
+footer{
+  background-color: #222220;
+  height: 6em;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+display: flex;
+}
+aside{
+
+  display: flex;
+  flex-direction: row;
+    min-width: 100%;
+}
+article{
+  font-size: 19px;
+width: 100%;
+padding: 0 38px;
+text-align: center;
+line-height: 30px;
+}
+.article1 h2{
+
+}
+article h2{
+  text-align: center;
+    margin-bottom: 30px;
+        min-height: 60px;
+}
+.copy{
+display: flex;
+align-items: center;
+justify-content: center;
+  color: white;
+  margin: 10px;
+  font-weight: 300;
+  width: 100%;
+}
+h2{
+  color: #5A3B07;
+}
+.icone1{
+  font-size: 2em;
+  color: #5A3B07;
+  position: relative;
+      bottom: 37px;
+
+}
+.icone1::before{
+
+    content: "";
+    display: block;
+    background-color: #564948;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    top: 58px;
+    left: 39%;
+    opacity: 0.5;
+}
+.para{
+  margin-bottom: 10px;
+}
+/*  restet des reglage par defauts des champs*/
+
+input {
+	outline: none;
+	border: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+textarea:focus, input:focus {
+  border-color: transparent !important;
+
+}
+
+.contact
+{
+  width: 100%;
+}
+.input1{
+display: block;
+width: 100%;
+font-size: 15px;
+color: #555555;
+line-height: 1.2;
+}
+.focus-input::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+}

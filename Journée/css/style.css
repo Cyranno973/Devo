@@ -1,0 +1,64 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  line-height: 26px;
+  background-color: #fff;
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #8c9597;
+}
+
+#header {
+  background-image: url('../images/front-page-header.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 100vh;
+}
+
+.top-header {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-navigation {
+  margin-top: 20px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  position: relative;
+  float: left;
+  font-family: lato;
+  list-style-type: none;
+}
+
+background-color:;
+
+nav ul li a {
+  text-decoration: none;
+}
+}

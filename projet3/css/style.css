@@ -1,0 +1,149 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+.header {
+  background-image: url("../images/fond-header.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#logo {
+  margin-top: 2%;
+  margin-bottom: 200px;
+}
+
+#logo::after {
+  content: ' take';
+  color: #fff;
+  font-family: Merriweather;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.titre {
+  align-items: center;
+  color: #fff;
+  font-family: 'Open Sans';
+  font-weight: lighter;
+  font-size: 46px;
+  padding-bottom: 20px;
+}
+
+.col-lg-12 {
+  background-color: #eaba;
+}
+
+.cont {
+  display: flex;
+  align-items: center;
+}
+
+.text-header {
+  line-height: 1.9;
+  color: #fff;
+}
+
+.iphone-img {
+  position: relative;
+  bottom: 61rem;
+  width: 100%;
+}
+
+.iphone {
+  width: 100%;
+}
+
+.container {
+  width: 1200px;
+}
+
+.section1-title {
+  margin-top: 100px;
+  margin-left: 13%;
+}
+
+.section1-title h2 {
+  font-weight: lighter;
+  font-family: 'Open Sans';
+}
+
+.section1-title div {
+  color: #959595;
+  width: 48%;
+}
+
+.p-text {
+  margin-bottom: 30px;
+  color: #959595;
+}
+
+.p-text1 {
+  margin-bottom: 30px;
+  position: relative;
+  top: 28rem;
+}
+
+h2 {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.mosaique1 {
+  color: #fff;
+  background-color: #f5989d;
+  background-image: url('../images/3images.png');
+  padding: 50px 40px;
+}
+}
+
+.mosaiqu2 {
+  background-color: #615f7d;
+  padding: 50px 40px;
+}
+
+.mosaique3 {
+  background-color: #f5989d;
+  background-image: url('../images/3images.png');
+  padding: 50px 40px;
+}
+
+.mosaique4 {
+  background-color: #bd8cbf;
+  padding: 50px 40px;
+}
+
+.mosaique5 {
+  background-color: #f5989d;
+  padding: 50px 40px;
+  width: 50%;
+  min-height: 280px;
+}
+
+.mosaique6 {
+  background-color: #82ca9c;
+  padding: 50px 40px;
+}
+
+.mosaique6 {
+  background-color: #82ca9c;
+  padding: 50px 40px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  line-height: 100%;
+}
+
+.pa-text {
+  font-size: 13px;
+  margin-bottom: 35px;
+}

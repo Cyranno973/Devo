@@ -1,0 +1,110 @@
+body
+{
+font-family: "Tahoma", sans-serif;
+background: #333;
+color:#fff;
+margin: 0;
+padding: 0;
+}
+.Global
+{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+
+}
+h2
+{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 80px;
+  text-shadow: 1px 1px 1px #ea5a;
+  text-shadow: 1px 2px 1px #ea5a;
+  text-shadow: 1px 5px 1px #ea5a;
+  text-shadow: 2px 6px 1px black;
+
+}
+.colonnes
+{
+  width: 33.3%;
+  padding: 8px;
+  box-sizing: border-box;
+
+}
+.tableau
+{
+  background: #fff;
+  color: #555;
+  margin: 0;
+  padding: 0;
+  transition: 0.5s;
+}
+.tableau:hover, .tableau.best
+{
+box-shadow: 0 10px 15px 0 #000;
+}
+.tableau.best
+{
+
+  transition-property: margin-top, width ;
+  transition-duration: 0.5s;
+}
+.tableau.best:hover
+{
+margin-top: -20px;
+
+}
+.tableau .titre
+{
+  background: #111;
+  color: #fff;
+  font-size: 25px;
+}
+.tableau li
+{
+ padding: 20px;
+ border-bottom: 1px solid #eee;
+ text-align: center;
+}
+.tableau .couleur-de-fond
+{
+background: #f4f4f4;
+font-size: 20px;
+}
+.button
+{
+  background-color: #4Caf50;
+  border: none;
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
+text-align: center;
+font-size: 18px;
+}
+.tableau .fond1
+{
+  background-color: #4Caf50;
+}
+
+@media(max-width:700px)
+{
+    .Global
+    {
+      flex-direction: column;
+    }
+    .colonnes
+   {
+     width: 100%;
+   }
+   h2
+   {
+     font-size: 60px;
+   }
+}
+
+ul li
+{
+  list-style-type: none;
+}
