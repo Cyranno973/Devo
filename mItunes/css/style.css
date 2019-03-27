@@ -18,7 +18,7 @@ body {
 }
 
 img {
-  width 100%;
+  width: 100%;
 }
 
 a {
@@ -38,6 +38,21 @@ a {
 
 .section h3 {
   font-size: 2rem;
+}
+
+.section#divertissement {
+  background: url('../img/section-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  padding: 10rem 0;
+}
+
+.cartes-cadeaux {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: left;
 }
 
 /* vitrine*/
@@ -103,15 +118,20 @@ a {
 
 /* Text colors*/
 .text-primary {
-  color: var(--primary-color)
+  color: var(--primary-color);
 }
 
 .text-secondary {
-  color: var(--secondary-color)
+  color: var(--secondary-color);
 }
 
 .text-light {
-  color: var(--light-color)
+  color: var(--light-color);
+}
+
+.bg-light {
+  background: var(--light-color);
+  color: #333;
 }
 
 .mb {
